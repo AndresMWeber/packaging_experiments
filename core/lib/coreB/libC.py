@@ -1,6 +1,6 @@
-from ..coreA import libA
+from core.lib.coreA.libA import Coffee
 
-class Macchiato(libA.Coffee):
+class Macchiato(Coffee):
     def __init__(self):
         self.flavor = 'caramel'
 
