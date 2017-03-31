@@ -1,6 +1,6 @@
 from ..coreB import libB
 from .. import tester
-import core.lib.pie as p
+from ...lib import pie as p
 
 class Coffee(libB.Node):
     def __init__(self):
